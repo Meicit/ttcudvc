@@ -78,7 +78,7 @@ L.control.layers(null, overlayMaps, { collapsed: false, position: 'topright' }).
 // 4. LẤY DỮ LIỆU TỪ VIETTEL HOSTING API
 // ==========================================
 // ⚠️ QUAN TRỌNG: Hãy thay URL dưới đây bằng link file api_get_map_data.php trên hosting của bạn
-const API_URL = 'https://ten-mien-viettel-cua-ban.com/api_get_map_data.php';
+const API_URL = 'https://xabinhhunh.gov.vn/api_get_map_data.php';
 
 fetch(API_URL)
     .then(response => {
